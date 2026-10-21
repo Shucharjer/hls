@@ -1,0 +1,12 @@
+{
+    "directory": "BUILD_DIR",
+    "arguments": [
+        "VITIS_CLANGPP",
+        "-fhls",
+        "-hls-syn-headers-dir=HLS_SYN_HDR_DIR",
+        "-fhlstoplevel=TOP",
+        "-c",
+        "FILE"
+    ],
+    "file": "FILE"
+}

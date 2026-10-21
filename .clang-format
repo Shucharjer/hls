@@ -1,0 +1,56 @@
+IndentWidth: 4
+UseTab: false
+AccessModifierOffset: -4
+
+AlignConsecutiveAssignments: true
+AlignConsecutiveBitFields: true
+AlignConsecutiveDeclarations: true
+AlignConsecutiveMacros: true
+AlignEscapedNewlines: true
+AlignTrailingComments: true
+
+
+NamespaceIndentation: None
+
+BreakAfterAttributes: Never
+BreakBeforeTernaryOperators: true
+
+BinPackArguments: false
+BinPackParameters: false
+
+AlwaysBreakTemplateDeclarations: Yes
+PointerAlignment: Left
+
+AlignArrayOfStructures: Right
+AlignAfterOpenBracket: AlwaysBreak
+
+AllowShortBlocksOnASingleLine: Empty
+AllowShortEnumsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLambdasOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortFunctionsOnASingleLine: false
+
+IncludeBlocks: Preserve
+SortIncludes: true
+IncludeCategories:
+    - Regex: '"[a-zA-Z]+([^"])*\.h"'
+      Priority: 6
+      CaseSensitive: false
+    - Regex: '"[a-zA-Z]+[^"]*\.hpp"'
+      Priority: 5
+      CaseSensitive: false
+    - Regex: '<[a-zA-Z]+.*\.hpp>'
+      Priority: 4
+      CaseSensitive: false
+    - Regex: '<[a-zA-Z]+.*\.h>'
+      Priority: 3
+      CaseSensitive: false
+    - Regex: '<[a-zA-Z]+[^/]*\.h>'
+      Priority: 2
+      CaseSensitive: false
+    - Regex: '<[a-zA-Z]+[^/]*>'
+      Priority: 1
+      CaseSensitive: false

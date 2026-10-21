@@ -1,0 +1,13 @@
+{
+    "directory": "BUILD_DIR",
+    "arguments": [
+        "VITIS_CLANGPP",
+        "-fhls-tb",
+        "-IHLS_SRC_DIR",
+        "-hls-sim-headers-dir=HLS_SIM_HDR_DIR",
+        "-fhlstoplevel=TOP",
+        "-c",
+        "FILE"
+    ],
+    "file": "FILE"
+}
